@@ -1,0 +1,15 @@
+body{
+    background-color: rgba(250, 240, 230, 0.61);
+
+}
+a{
+    background-color: #f1c6d6fb;
+  color: white;
+  text-size-adjust: 150%;
+  border-radius: 10px;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+}

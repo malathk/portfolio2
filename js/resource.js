@@ -20,28 +20,3 @@ base('Table 1').select({
 }, function done(err) {
     if (err) { console.error(err); return; }
 });
-records.forEach(function(record) {
-    // Create a div to contain content for this record
-    var element = document.createElement('div');
-
-    // Add classes to record element
-    element.classList.add('Name');
-   
-
-    // Add a special cl
-
-    // Add heading element to record element
-    
-
-    // Create a paragraph element
-    var paragraph = document.createElement('proj');
-
-    // Populate paragraph element html
-    proj.innerHTML = record.get('Name');
-
-    // Add paragraph element to record element
-    element.appendChild(proj);
-
-    // Add record element to container element
-    containerElement.appendChild(element);
-  });

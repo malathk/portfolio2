@@ -1,0 +1,12 @@
+main{
+display:grid; 
+  position: absolute;
+  left:50%;
+    grid-template-rows: 25% 25% 25% 24%;
+}
+
+
+.words{
+background-color: lavenderblush;
+}
+
